@@ -1,5 +1,4 @@
-Shareable Link for 
- "How to Calibrate your 3D printer.docx"
+Shareable Links:
 
 [How to Calibrate your 3D printer](https://drive.google.com/open?id=17eUOXhbbIfxjppdvEnXTXHyN9hHmyxqj)
 
