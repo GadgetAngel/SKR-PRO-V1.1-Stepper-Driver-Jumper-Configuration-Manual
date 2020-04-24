@@ -2,7 +2,9 @@
 
 :exclamation: This project provides documentation on how to configure stepper motor driver boards and
 how to use them with the SKR PRO V1.1 3D printer controller board :exclamation:
-
+```
+ I use Git for Windows with VScode to manage this repository.  I also use Git LFS extenstion for .pdf and .png files.
+```
 ## Table of Contents:
 
 ```
