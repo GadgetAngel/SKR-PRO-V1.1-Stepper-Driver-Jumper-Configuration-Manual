@@ -14,6 +14,8 @@ $ git clone https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Co
 Press Enter to create your local clone.
 Now open Window explorer to the location of local clone.
 ```
+## The Whole Repository in .zip file is located at https://drive.google.com/open?id=1ynmA4rw3QM6oHC4VUYeIZJsgLPiWB8C3
+
 ## Table of Contents:
 
 ```
