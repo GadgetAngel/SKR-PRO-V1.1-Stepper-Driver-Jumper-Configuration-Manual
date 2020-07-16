@@ -18,7 +18,7 @@ The Repository now contains a .zip file that contains the whole repository. So, 
 
 Also, You can download the .zip from my google drive located here:
 
-## The Whole Repository in .zip file is located on Google Drive at https://drive.google.com/open?id=1ynmA4rw3QM6oHC4VUYeIZJsgLPiWB8C3
+## The Whole Repository in .zip file is located on Google Drive at:  https://drive.google.com/file/d/106bcoOgppD1jLdb8r-UJCRm44inoJ7NI/view?usp=sharing
 
 ## Table of Contents:
 
@@ -162,12 +162,12 @@ APPENDIX B......................................................................
     #2 TMC2130 with Rs = 0.110Ω (110mΩ).........................................................................351
     #3 TMC2208 with Rs = 0.110Ω (110mΩ) for Stand-alone Mode....................................................351
     #4 TMC2208 with Rs = 0.110Ω (110mΩ) for UART Mode...........................................................352
-    #5 TMC2209 with Rs = 0.110 (110m) for Stand-alone Mode...................................................352
+    #5 TMC2209 with Rs = 0.110Ω (110mΩ) for Stand-alone Mode...................................................352
     #6 TMC2209 with Rs = 0.110Ω (110mΩ) for UART Mode...........................................................353
     #7 TMC2225 with Rs = 0.150Ω (150mΩ) for UART Mode...........................................................353
     #8 TMC5160 with Rs = 0.075Ω (75mΩ) for SPI Mode.............................................................353
     #9 TMC5161 with Rs = 0.062Ω (62mΩ) for SPI Mode.............................................................354
-    #10 TMC2225 with Rs = 0.150 (150m) for Stand-alone Mode..................................................354
+    #10 TMC2225 with Rs = 0.150Ω (150mΩ) for Stand-alone Mode..................................................354
 APPENDIX C......................................................................................................355
   The (Latest Release of) Marlin Setup That Is Common to ALL Stepper Motor Drivers..............................355
     Link to BIGTREETECH SKR PRO V1.1 User Manual.pdf............................................................355
