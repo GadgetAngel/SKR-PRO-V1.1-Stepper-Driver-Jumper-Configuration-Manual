@@ -1,4 +1,4 @@
-# SKR-PRO-V1.1-Stepper-Driver-Jumper-Configurations-Manual
+# SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual
 
 :exclamation: This project provides and Interactive PDF (documentation) on how to configure stepper motor 
 driver boards and how to use them with the SKR PRO V1.1 (3D printer controller) board.  This manual also 
@@ -25,7 +25,7 @@ Press Enter to create your local clone.
 Now open Window explorer to the location of local clone.
 ```
 ## The Whole Repository in .zip file is located on Google Drive at: 
-https://drive.google.com/file/d/1-K_8e5X_siQRn9Irg6GANT6iiXQq-ANt/view?usp=sharing    
+https://drive.google.com/file/d/1zP8d9L90Mro_9N6eEpGxL0ybCfoDMt-d/view?usp=sharing 
 
 ## Table of Contents:
 
@@ -359,144 +359,149 @@ APPENDIX F......................................................................
     BIQU TMC2209 V1.2...........................................................................................643
     BIQU TMC5160 V1.2...........................................................................................643
     BIQU TMC5161 V1.0...........................................................................................644
-    Links on SKR V1 4 TURBO Board...............................................................................644
+    Links on SKR V1.4 TURBO Board...............................................................................644
     Links on SKR PRO V1.1 Board.................................................................................645
-    Miscellaneous Information...................................................................................646
-    Miscellaneous Information (continued).......................................................................647
-    Facebook Groups.............................................................................................652
-APPENDIX G......................................................................................................653
-  BIGTREETECH Reference Material for SKR PRO V1.1 Board.........................................................653
-    SKR PRO V1.1 Original PIN Diagram...........................................................................653
-    SKR PRO V1.1 Original Wiring Diagram 1......................................................................654
-    SKR PRO V1.1 Original Wiring Diagram 2......................................................................655
-    SKR PRO V1.1 Original PIN 1 Diagram.........................................................................656
-    SKR PRO V1.1 Original Schematic Diagram.....................................................................657
-APPENDIX H......................................................................................................658
-  BIGTREETECH’s Smart Filament Sensor (SFS) Guide for SKR PRO V1.1 Board........................................658
-  Information About BIGTREETECH’s SFS...........................................................................660
-  SFS Wired to Limit Switch{X-, Y-, Z-, E0, E1, or E2}..........................................................661
-    Marlin 2.0.x Setup for SFS Connected to E0 Connector........................................................662
-    Marlin 2.0.x Setup for SFS..................................................................................664
-APPENDIX I......................................................................................................671
-  “Connecting up Raspberry Pi via TFT Connector” Guide for SKR PRO V1.1 Board...................................671
-  Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable Via TFT Connector..............................672
-    TFT Connector Wiring Diagram for Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable.............675
-  Marlin 2.0.x Setup for Connecting up Raspberry Pi.............................................................678
-APPENDIX J......................................................................................................681
-  “Connecting up Raspberry Pi via UART3 Header” Guide for SKR PRO V1.1 Board....................................681
-  Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable Via UART3 Header...............................682
-    UART3 Header Wiring Diagram for Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable..............685
-  Marlin 2.0.x Setup for Connecting up Raspberry Pi.............................................................688
-APPENDIX K......................................................................................................691
-  “Connecting up Raspberry Pi via WIFI Header” Guide for SKR PRO V1.1 Board.....................................691
-  Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable Via WIFI Header................................692
-    WIFI Header Wiring Diagram for Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable...............695
-  Marlin 2.0.x Setup for Connecting up Raspberry Pi.............................................................698
-APPENDIX L......................................................................................................701
-  BLTouch Guide for SKR PRO V1.1 Board..........................................................................701
-  Connecting SKR PRO V1.1 with BLTouch..........................................................................702
-    Wiring Diagram for Connecting SKR PRO V1.1 with BLTouch.....................................................705
-  Marlin 2.0.x Firmware Setup for Connecting a BLTouch to SKR PRO V1.1 Board....................................706
-    Explanation when to use Marlin variable Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN..................................711
-    Understanding Marlin Firmware’s NOZZLE_TO_PROBE_OFFSET Setting..............................................715
-APPENDIX M......................................................................................................730
-  PT100 Sensor Connection Guide to the SKR PRO V1.1 Board via Analog ADC I/O Input..............................730
-  Hyperlink Map for this PT100 Sensor Connection Guide via Analog ADC I/O Input.................................731
-  Connecting SKR PRO V1.1 Board with  PT100 Sensor..............................................................732
-  Analog Procedure..............................................................................................734
-    Connecting SKR PRO V1.1 Board with PT100 Amplifier Board and PT100 Sensor...................................734
-      Locations of 3.3VDC Referenced to Analog Ground for the SKR PRO V1.1 Board’s Thermistor Ports.............743
-      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T1 (E0) Thermistor Port...........................745
-      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T2 (E1) Thermistor Port...........................747
-      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T3 (E2) Thermistor Port...........................749
-    Instructions for Suppling Power to the PT100 Amplifier Board................................................752
-      Method #1 for Powering the PT100 Amplifier Board (Digital PWR)............................................753
-      Method #2 for Powering PT100 Amplifier Board (Analog PWR).................................................754
-    Wiring Diagram forTechnique #1 & Method #1 (Digital PWR)....................................................755
-    Wiring Diagram forTechnique #2 & Method #1 (Digital PWR)....................................................756
-    Wiring Diagram forTechnique #3 & Method #1 (Digital PWR)....................................................757
-    Wiring Diagram forTechnique #4 & Method #1 (Digital PWR)....................................................758
-    Wiring Diagram forTechnique #5 & Method #1 (Digital PWR)....................................................759
-    Wiring Diagram forTechnique #5 & Method #2 (Analog PWR).....................................................760
-    Wiring Diagram forTechnique #6 & Method #1 (Digital PWR)....................................................761
-    Wiring Diagram forTechnique #6 & Method #2 (Analog PWR).....................................................762
-    Wiring Diagram forTechnique #7 & Method #1 (Digital PWR)....................................................763
-    Wiring Diagram forTechnique #7 & Method #2 (Analog PWR).....................................................764
-    Wiring Diagram forTechnique #8 & Method #1 (Digital PWR)....................................................765
-    Marlin 2.0.x Firmware Setup for Connecting a PT100 Sensor to the SKR PRO V1.1 Board.........................766
-      Marlin 2.0.x Firmware Setup forTechnique #1...............................................................767
-      Marlin 2.0.x Firmware Setup forTechnique #2...............................................................772
-      Marlin 2.0.x Firmware Setup forTechnique #3...............................................................777
-      Marlin 2.0.x Firmware Setup forTechnique #4...............................................................782
-      Marlin 2.0.x Firmware Setup forTechnique #5...............................................................787
-      Marlin 2.0.x Firmware Setup forTechnique #6...............................................................792
-      Marlin 2.0.x Firmware Setup forTechnique #7...............................................................797
-      Marlin 2.0.x Firmware Setup forTechnique #8...............................................................802
-APPENDIX N......................................................................................................814
-  PT100 Sensor Connection Guide to the SKR PRO V1.1 Board via SPI Protocol (Software)...........................814
-  Hyperlink Map for this PT100 Sensor Connection Guide via SPI Protocol (Software)..............................815
-  Digital Procedure.............................................................................................816
-    Connecting SKR PRO V1.1 with MAX31865 Amplifier Board and PT100 Sensor......................................816
-      Connecting SKR PRO V1.1 with MAX31865 Amplifier Board via Software SPI....................................818
-        Method #1 for Powering the MAX31865 Amplifier Board (Digital PWR).......................................827
-        Wiring Diagram forTechnique #1 & Method #1 (Digital PWR)................................................828
-        Wiring Diagram forTechnique #2 & Method #1 (Digital PWR)................................................829
-        Wiring Diagram forTechnique #3 & Method #1 (Digital PWR)................................................830
-        Wiring Diagram forTechnique #4 & Method #1 (Digital PWR)................................................831
-        Marlin 2.0.x Firmware Setup forTechnique #1.............................................................833
-        Marlin 2.0.x Firmware Setup forTechnique #2.............................................................840
-        Marlin 2.0.x Firmware Setup forTechnique #3.............................................................847
-        Marlin 2.0.x Firmware Setup forTechnique #4.............................................................854
-APPENDIX O......................................................................................................861
-  K-Type Thermocouple Sensor Connection Guide to the SKR PRO V1.1 Board via Analog ADC I/O Input................861
-  Hyperlink Map for this K-Type Thermocouple Sensor Connection Guide via Analog ADC I/O Input...................862
-  Connecting SKR PRO V1.1 Board with K-Type Thermocouple Sensor.................................................863
-  Analog Procedure..............................................................................................865
-    Connecting SKR PRO V1.1 with K-Type Thermocouple Sensor and Adafruit’s AD8495 Amplifier Board...............865
-      Locations of 3.3VDC Referenced to Analog Ground for the SKR PRO V1.1 Board’s Thermistor Ports.............874
-      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T1 (E0) Thermistor Port...........................876
-      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T2 (E1) Thermistor Port...........................878
-      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T3 (E2) Thermistor Port...........................880
-    Instructions for Suppling Power to the AD8495 Amplifier Board...............................................883
-      Method #1 for Powering the AD8495 Amplifier Board (Digital PWR)...........................................884
-      Method #2 for Powering AD8495 Amplifier Board (Analog PWR)................................................885
-    Wiring Diagram forTechnique #1 & Method #1 (Digital PWR)....................................................886
-    Wiring Diagram forTechnique #2 & Method #1 (Digital PWR)....................................................887
-    Wiring Diagram forTechnique #3 & Method #1 (Digital PWR)....................................................888
-    Wiring Diagram forTechnique #4 & Method #1 (Digital PWR)....................................................889
-    Wiring Diagram forTechnique #5 & Method #1 (Digital PWR)....................................................890
-    Wiring Diagram forTechnique #5 & Method #2 (Analog PWR).....................................................891
-    Wiring Diagram forTechnique #6 & Method #1 (Digital PWR)....................................................892
-    Wiring Diagram forTechnique #6 & Method #2 (Analog PWR).....................................................893
-    Wiring Diagram forTechnique #7 & Method #1 (Digital PWR)....................................................894
-    Wiring Diagram forTechnique #7 & Method #2 (Analog PWR).....................................................895
-    Wiring Diagram forTechnique #8 & Method #1 (Digital PWR)....................................................896
-    Marlin 2.0.x Firmware Setup for Connecting a K-Type Thermocouple Sensor to the SKR PRO V1.1 Board...........897
-      Marlin 2.0.x Firmware Setup forTechnique #1...............................................................898
-      Marlin 2.0.x Firmware Setup forTechnique #2...............................................................904
-      Marlin 2.0.x Firmware Setup forTechnique #3...............................................................910
-      Marlin 2.0.x Firmware Setup forTechnique #4...............................................................916
-      Marlin 2.0.x Firmware Setup forTechnique #5...............................................................922
-      Marlin 2.0.x Firmware Setup forTechnique #6...............................................................928
-      Marlin 2.0.x Firmware Setup forTechnique #7...............................................................934
-      Marlin 2.0.x Firmware Setup forTechnique #8...............................................................940
-APPENDIX P......................................................................................................955
-  K-Type Thermocouple Sensor Connection Guide to the SKR PRO V1.1 Board via SPI Protocol (Software).............955
-  Hyperlink Map for this K-Type Thermocouple Sensor Connection Guide via SPI Protocol (Software)................956
-  Digital Procedure.............................................................................................957
-    Connecting SKR PRO V1.1 with MAX31855 Amplifier Board and K-Type Thermocouple Sensor........................957
-      Connecting SKR PRO V1.1 with MAX31855 Amplifier Board via Software SPI....................................959
-        Method #1 for Powering the MAX31855 Amplifier Board (Digital PWR).......................................966
-        Wiring Diagram forTechnique #1 & Method #1 (Digital PWR)................................................967
-        Wiring Diagram forTechnique #2 & Method #1 (Digital PWR)................................................968
-        Wiring Diagram forTechnique #3 & Method #1 (Digital PWR)................................................969
-        Wiring Diagram forTechnique #4 & Method #1 (Digital PWR)................................................970
-        Marlin 2.0.x Firmware Setup forTechnique #1.............................................................972
-        Marlin 2.0.x Firmware Setup forTechnique #2.............................................................979
-        Marlin 2.0.x Firmware Setup forTechnique #3.............................................................986
-        Marlin 2.0.x Firmware Setup forTechnique #4.............................................................993
-APPENDIX Q.....................................................................................................1000
-  EEPROM Guide for SKR PRO V1.1 Board..........................................................................1000
-    Link to TWhite101 Instructable Guide called “BigTreeTech SKR Pro V1.1 or V1.2; Adding a EEPROM”............1001
-Index..........................................................................................................1002
+    Links on SKR PRO V1.2 Board.................................................................................646
+    Links on SKR V1.3 Board.....................................................................................647
+    Links on SKR V1.4 Board.....................................................................................648
+    Links on GTR V1.0 Board.....................................................................................649
+    Links on M5 V1.0 Add-on-board for GTR V1.0 Board............................................................650
+    Miscellaneous Information...................................................................................651
+    Miscellaneous Information (continued).......................................................................652
+    Facebook Groups.............................................................................................657
+APPENDIX G......................................................................................................658
+  BIGTREETECH Reference Material for SKR PRO V1.1 Board.........................................................658
+    SKR PRO V1.1 Original PIN Diagram...........................................................................658
+    SKR PRO V1.1 Original Wiring Diagram 1......................................................................659
+    SKR PRO V1.1 Original Wiring Diagram 2......................................................................660
+    SKR PRO V1.1 Original PIN 1 Diagram.........................................................................661
+    SKR PRO V1.1 Original Schematic Diagram.....................................................................662
+APPENDIX H......................................................................................................663
+  BIGTREETECH’s Smart Filament Sensor (SFS) Guide for SKR PRO V1.1 Board........................................663
+  Information About BIGTREETECH’s SFS...........................................................................665
+  SFS Wired to Limit Switch{X-, Y-, Z-, E0, E1, or E2}..........................................................666
+    Marlin 2.0.x Setup for SFS Connected to E0 Connector........................................................667
+    Marlin 2.0.x Setup for SFS..................................................................................669
+APPENDIX I......................................................................................................676
+  “Connecting up Raspberry Pi via TFT Connector” Guide for SKR PRO V1.1 Board...................................676
+  Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable Via TFT Connector..............................677
+    TFT Connector Wiring Diagram for Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable.............680
+  Marlin 2.0.x Setup for Connecting up Raspberry Pi.............................................................683
+APPENDIX J......................................................................................................686
+  “Connecting up Raspberry Pi via UART3 Header” Guide for SKR PRO V1.1 Board....................................686
+  Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable Via UART3 Header...............................687
+    UART3 Header Wiring Diagram for Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable..............690
+  Marlin 2.0.x Setup for Connecting up Raspberry Pi.............................................................693
+APPENDIX K......................................................................................................696
+  “Connecting up Raspberry Pi via WIFI Header” Guide for SKR PRO V1.1 Board.....................................696
+  Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable Via WIFI Header................................697
+    WIFI Header Wiring Diagram for Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable...............700
+  Marlin 2.0.x Setup for Connecting up Raspberry Pi.............................................................703
+APPENDIX L......................................................................................................706
+  BLTouch Guide for SKR PRO V1.1 Board..........................................................................706
+  Connecting SKR PRO V1.1 with BLTouch..........................................................................707
+    Wiring Diagram for Connecting SKR PRO V1.1 with BLTouch.....................................................710
+  Marlin 2.0.x Firmware Setup for Connecting a BLTouch to SKR PRO V1.1 Board....................................711
+    Explanation when to use Marlin variable Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN..................................716
+    Understanding Marlin Firmware’s NOZZLE_TO_PROBE_OFFSET Setting..............................................720
+APPENDIX M......................................................................................................735
+  PT100 Sensor Connection Guide to the SKR PRO V1.1 Board via Analog ADC I/O Input..............................735
+  Hyperlink Map for this PT100 Sensor Connection Guide via Analog ADC I/O Input.................................736
+  Connecting  SKR PRO V1.1 Board with  PT100 Sensor.............................................................737
+  Analog Procedure..............................................................................................739
+    Connecting SKR PRO V1.1 Board with PT100 Amplifier Board and PT100 Sensor...................................739
+      Locations of 3.3VDC Referenced to Analog Ground for the SKR PRO V1.1 Board’s Thermistor Ports.............748
+      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T1 (E0) Thermistor Port...........................750
+      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T2 (E1) Thermistor Port...........................752
+      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T3 (E2) Thermistor Port...........................754
+    Instructions for Suppling Power to the PT100 Amplifier Board................................................757
+      Method #1 for Powering the PT100 Amplifier Board (Digital PWR)............................................758
+      Method #2 for Powering PT100 Amplifier Board (Analog PWR).................................................759
+    Wiring Diagram for Technique #1 & Method #1 (Digital PWR)...................................................760
+    Wiring Diagram for Technique #2 & Method #1 (Digital PWR)...................................................761
+    Wiring Diagram for Technique #3 & Method #1 (Digital PWR)...................................................762
+    Wiring Diagram for Technique #4 & Method #1 (Digital PWR)...................................................763
+    Wiring Diagram for Technique #5 & Method #1 (Digital PWR)...................................................764
+    Wiring Diagram for Technique #5 & Method #2 (Analog PWR)....................................................765
+    Wiring Diagram for Technique #6 & Method #1 (Digital PWR)...................................................766
+    Wiring Diagram for Technique #6 & Method #2 (Analog PWR)....................................................767
+    Wiring Diagram for Technique #7 & Method #1 (Digital PWR)...................................................768
+    Wiring Diagram for Technique #7 & Method #2 (Analog PWR)....................................................769
+    Wiring Diagram for Technique #8 & Method #1 (Digital PWR)...................................................770
+    Marlin 2.0.x Firmware Setup for Connecting a PT100 Sensor to the SKR PRO V1.1 Board.........................771
+      Marlin 2.0.x Firmware Setup for Technique #1..............................................................772
+      Marlin 2.0.x Firmware Setup for Technique #2..............................................................777
+      Marlin 2.0.x Firmware Setup for Technique #3..............................................................782
+      Marlin 2.0.x Firmware Setup for Technique #4..............................................................787
+      Marlin 2.0.x Firmware Setup for Technique #5..............................................................792
+      Marlin 2.0.x Firmware Setup for Technique #6..............................................................797
+      Marlin 2.0.x Firmware Setup for Technique #7..............................................................802
+      Marlin 2.0.x Firmware Setup for Technique #8..............................................................807
+APPENDIX N......................................................................................................819
+  PT100 Sensor Connection Guide to the SKR PRO V1.1 Board via SPI Protocol (Software)...........................819
+  Hyperlink Map for this PT100 Sensor Connection Guide via SPI Protocol (Software)..............................820
+  Digital Procedure.............................................................................................821
+    Connecting  SKR PRO V1.1 with MAX31865 Amplifier Board and PT100 Sensor.....................................821
+      Connecting SKR PRO V1.1 with MAX31865 Amplifier Board via Software SPI....................................823
+        Method #1 for Powering the MAX31865 Amplifier Board (Digital PWR).......................................832
+        Wiring Diagram for Technique #1 & Method #1 (Digital PWR)...............................................833
+        Wiring Diagram for Technique #2 & Method #1 (Digital PWR)...............................................834
+        Wiring Diagram for Technique #3 & Method #1 (Digital PWR)...............................................835
+        Wiring Diagram for Technique #4 & Method #1 (Digital PWR)...............................................836
+        Marlin 2.0.x Firmware Setup for Technique #1............................................................838
+        Marlin 2.0.x Firmware Setup for Technique #2............................................................847
+        Marlin 2.0.x Firmware Setup for Technique #3............................................................856
+        Marlin 2.0.x Firmware Setup for Technique #4............................................................865
+APPENDIX O......................................................................................................874
+  K-Type Thermocouple Sensor Connection Guide to the SKR PRO V1.1 Board via Analog ADC I/O Input................874
+  Hyperlink Map for this K-Type Thermocouple Sensor Connection Guide via Analog ADC I/O Input...................875
+  Connecting  SKR PRO V1.1 Board with K-Type Thermocouple Sensor................................................876
+  Analog Procedure..............................................................................................878
+    Connecting SKR PRO V1.1 with K-Type Thermocouple Sensor and Adafruit’s AD8495 Amplifier Board...............878
+      Locations of 3.3VDC Referenced to Analog Ground for the SKR PRO V1.1 Board’s Thermistor Ports.............887
+      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T1 (E0) Thermistor Port...........................889
+      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T2 (E1) Thermistor Port...........................891
+      Hardware Hack Instructions for the SKR PRO V1.1 Board’s T3 (E2) Thermistor Port...........................893
+    Instructions for Suppling Power to the AD8495 Amplifier Board...............................................896
+      Method #1 for Powering the AD8495 Amplifier Board (Digital PWR)...........................................897
+      Method #2 for Powering AD8495 Amplifier Board (Analog PWR)................................................898
+    Wiring Diagram for Technique #1 & Method #1 (Digital PWR)...................................................899
+    Wiring Diagram for Technique #2 & Method #1 (Digital PWR)...................................................900
+    Wiring Diagram for Technique #3 & Method #1 (Digital PWR)...................................................901
+    Wiring Diagram for Technique #4 & Method #1 (Digital PWR)...................................................902
+    Wiring Diagram for Technique #5 & Method #1 (Digital PWR)...................................................903
+    Wiring Diagram for Technique #5 & Method #2 (Analog PWR)....................................................904
+    Wiring Diagram for Technique #6 & Method #1 (Digital PWR)...................................................905
+    Wiring Diagram for Technique #6 & Method #2 (Analog PWR)....................................................906
+    Wiring Diagram for Technique #7 & Method #1 (Digital PWR)...................................................907
+    Wiring Diagram for Technique #7 & Method #2 (Analog PWR)....................................................908
+    Wiring Diagram for Technique #8 & Method #1 (Digital PWR)...................................................909
+    Marlin 2.0.x Firmware Setup for Connecting a K-Type Thermocouple Sensor to the SKR PRO V1.1 Board...........910
+      Marlin 2.0.x Firmware Setup for Technique #1..............................................................911
+      Marlin 2.0.x Firmware Setup for Technique #2..............................................................917
+      Marlin 2.0.x Firmware Setup for Technique #3..............................................................923
+      Marlin 2.0.x Firmware Setup for Technique #4..............................................................929
+      Marlin 2.0.x Firmware Setup for Technique #5..............................................................935
+      Marlin 2.0.x Firmware Setup for Technique #6..............................................................941
+      Marlin 2.0.x Firmware Setup for Technique #7..............................................................947
+      Marlin 2.0.x Firmware Setup for Technique #8..............................................................953
+APPENDIX P......................................................................................................968
+  K-Type Thermocouple Sensor Connection Guide to the SKR PRO V1.1 Board via SPI Protocol (Software).............968
+  Hyperlink Map for this K-Type Thermocouple Sensor Connection Guide via SPI Protocol (Software)................969
+  Digital Procedure.............................................................................................970
+    Connecting SKR PRO V1.1 with MAX31855 Amplifier Board and K-Type Thermocouple Sensor........................970
+      Connecting SKR PRO V1.1 with MAX31855 Amplifier Board via Software SPI....................................972
+        Method #1 for Powering the MAX31855 Amplifier Board (Digital PWR).......................................979
+        Wiring Diagram for Technique #1 & Method #1 (Digital PWR)...............................................980
+        Wiring Diagram for Technique #2 & Method #1 (Digital PWR)...............................................981
+        Wiring Diagram for Technique #3 & Method #1 (Digital PWR)...............................................982
+        Wiring Diagram for Technique #4 & Method #1 (Digital PWR)...............................................983
+        Marlin 2.0.x Firmware Setup for Technique #1............................................................985
+        Marlin 2.0.x Firmware Setup for Technique #2............................................................992
+        Marlin 2.0.x Firmware Setup for Technique #3............................................................999
+        Marlin 2.0.x Firmware Setup for Technique #4...........................................................1006
+APPENDIX Q.....................................................................................................1013
+  EEPROM Guide for SKR PRO V1.1 Board..........................................................................1013
+    Link to TWhite101 Instructable Guide called “BigTreeTech SKR Pro V1.1 or V1.2; Adding a EEPROM”............1014
+Index..........................................................................................................1015
 ```
