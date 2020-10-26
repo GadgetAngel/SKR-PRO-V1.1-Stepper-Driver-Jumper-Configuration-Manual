@@ -385,8 +385,8 @@ APPENDIX H......................................................................
   Information About BIGTREETECH’s SFS...........................................................................670
   SFS Wired to E0 Limit Switch or Endstop.......................................................................671
     Marlin 2.0.x Setup for SFS Connected to E0 Connector........................................................672
-  Marlin 2.0.x Setup for SFS....................................................................................674======done
-APPENDIX I......................................................................................................681=====not done
+  Marlin 2.0.x Setup for SFS....................................................................................674
+APPENDIX I......................................................................................................681
   “Connecting up Raspberry Pi via TFT Connector” Guide for SKR PRO V1.1 Board...................................681
   Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable Via TFT Connector..............................682
     TFT Connector Wiring Diagram for Connecting SKR PRO V1.1 to Raspberry Pi to Eliminate USB Cable.............685
