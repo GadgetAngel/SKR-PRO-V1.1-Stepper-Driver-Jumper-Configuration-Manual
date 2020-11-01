@@ -25,7 +25,7 @@ Press Enter to create your local clone.
 Now open Window explorer to the location of local clone.
 ```
 ## The Whole Repository in .zip file is located on Google Drive at: 
-https://drive.google.com/file/d/1HMXEPrhHDQpquUkK_joBbnZqceemSqxw/view?usp=sharing
+https://drive.google.com/file/d/1c7bwpyAY-CZV7-84h9JYbFC4vSBWQTMo/view?usp=sharing
 
 ## Table of Contents:
 
