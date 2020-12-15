@@ -73,6 +73,6 @@ Feature Requests are tracked as [GitHub issues](https://guides.github.com/featur
 
 Pull Requests should always be targeted to working branches (e.g., `master`). If this is your first Pull Request, please read Github's [Pull Request](https://help.github.com/articles/creating-a-pull-request/) documentation.
 
-* Fill in [the required template](.pull_request_template.md).
+* Fill in [the required template](./pull_request_template.md).
 * Don't include issue numbers in the PR title.
 * Include pictures, diagrams, and links to videos in your Pull Request to demonstrate your changes, if needed.
