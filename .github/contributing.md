@@ -41,7 +41,7 @@ If chat is more your speed, you can join the MarlinFirmware Discord server:
 
 This section guides you through submitting a Bug Report for SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
 
-When you are creating a Bug Report, please [include as many details as possible](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-do-i-submit-a-good-bug-report). Fill out [the required template](/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
+When you are creating a Bug Report, please [include as many details as possible](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-do-i-submit-a-good-bug-report). Fill out [the required template](./ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
 
 > **Note:** Regressions can happen. If you find a **Closed** issue that seems like your issue, go ahead and open a new issue and include a link to the original issue in the body of your new one. All you need to create a link is the issue number, preceded by #. For example, #8888.
 
