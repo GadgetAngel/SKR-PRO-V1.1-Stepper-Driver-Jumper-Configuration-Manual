@@ -47,7 +47,7 @@ When you are creating a Bug Report, please [include as many details as possible]
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Use the New Issue button to create an issue and provide the following information by filling in [the template](https://github.com/GadgetAngel/SKR-PRO-V1.2-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Use the New Issue button to create an issue and provide the following information by filling in [the template](./ISSUE_TEMPLATE/bug_report.md).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
@@ -59,7 +59,7 @@ Explain the problem and include additional details to help maintainers reproduce
 
 This section guides you through submitting a suggestion for SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual, including completely new features. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
 
-When you are creating an enhancement suggestion, please [include as many details as possible](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-do-i-submit-a-good-feature-request). Fill in [the template](https://github.com/GadgetAngel/SKR-PRO-V1.2-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/ISSUE_TEMPLATE/feature_request.md).
+When you are creating an enhancement suggestion, please [include as many details as possible](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-do-i-submit-a-good-feature-request). Fill in [the template](./ISSUE_TEMPLATE/feature_request.md).
 
 #### How Do I Submit A (Good) Feature Request?
 
@@ -73,6 +73,6 @@ Feature Requests are tracked as [GitHub issues](https://guides.github.com/featur
 
 Pull Requests should always be targeted to working branches (e.g., `master`). If this is your first Pull Request, please read Github's [Pull Request](https://help.github.com/articles/creating-a-pull-request/) documentation.
 
-* Fill in [the required template](.github/PULL_REQUEST_TEMPLATE/open-a-pull-request.md).
+* Fill in [the required template](./PULL_REQUEST_TEMPLATE/open-a-pull-request.md).
 * Don't include issue numbers in the PR title.
 * Include pictures, diagrams, and links to videos in your Pull Request to demonstrate your changes, if needed.
