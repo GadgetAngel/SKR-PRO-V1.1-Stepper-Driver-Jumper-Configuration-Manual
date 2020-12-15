@@ -11,7 +11,7 @@ The following is a set of guidelines for contributing to SKR-PRO-V1.1-Stepper-Dr
 [I don't want to read this whole thing, I just have a question!!!](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
 [How Can I Contribute?](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-can-i-contribute)
-  * [Reporting Bugs](.github/ISSUE_TEMPLATE/bug_report.md)
+  * [Reporting Bugs](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#reporting-bugs)
   * [Suggesting Features or Changes](.github/ISSUE_TEMPLATE/feature_request.md)
   * [Pull Requests](.github/PULL_REQUEST_TEMPLATE/open-a-pull-request.md)
 
