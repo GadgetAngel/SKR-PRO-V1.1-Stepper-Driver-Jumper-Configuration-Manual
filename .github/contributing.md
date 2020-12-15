@@ -59,7 +59,7 @@ Explain the problem and include additional details to help maintainers reproduce
 
 This section guides you through submitting a suggestion for SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual, including completely new features. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
 
-When you are creating an enhancement suggestion, please [include as many details as possible](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/new/master/.github#how-do-i-submit-a-good-feature-request). Fill in [the template](https://github.com/GadgetAngel/SKR-PRO-V1.2-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/ISSUE_TEMPLATE/feature_request.md).
+When you are creating an enhancement suggestion, please [include as many details as possible](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-do-i-submit-a-good-feature-request). Fill in [the template](https://github.com/GadgetAngel/SKR-PRO-V1.2-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/ISSUE_TEMPLATE/feature_request.md).
 
 #### How Do I Submit A (Good) Feature Request?
 
