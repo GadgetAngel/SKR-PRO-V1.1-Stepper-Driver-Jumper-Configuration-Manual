@@ -10,10 +10,10 @@ The following is a set of guidelines for contributing to SKR-PRO-V1.1-Stepper-Dr
 
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
-[How Can I Contribute?](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-can-i-contribute)
-  * [Reporting Bugs](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#reporting-bugs)
-  * [Suggesting Features or Changes](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#suggesting-features-or-changes)
-  * [Pull Requests](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#pull-requests)
+[How Can I Contribute?](#how-can-i-contribute)
+  * [Reporting Bugs](#reporting-bugs)
+  * [Suggesting Features or Changes](#suggesting-features-or-changes)
+  * [Pull Requests](#pull-requests)
 
 ## Code of Conduct
 
@@ -41,7 +41,7 @@ If chat is more your speed, you can join the MarlinFirmware Discord server:
 
 This section guides you through submitting a Bug Report for SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
 
-When you are creating a Bug Report, please [include as many details as possible](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-do-i-submit-a-good-bug-report). Fill out [the required template](./ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
+When you are creating a Bug Report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](./ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
 
 > **Note:** Regressions can happen. If you find a **Closed** issue that seems like your issue, go ahead and open a new issue and include a link to the original issue in the body of your new one. All you need to create a link is the issue number, preceded by #. For example, #8888.
 
@@ -59,7 +59,7 @@ Explain the problem and include additional details to help maintainers reproduce
 
 This section guides you through submitting a suggestion for SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual, including completely new features. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
 
-When you are creating an enhancement suggestion, please [include as many details as possible](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#how-do-i-submit-a-good-feature-request). Fill in [the template](./ISSUE_TEMPLATE/feature_request.md).
+When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-feature-request). Fill in [the template](./ISSUE_TEMPLATE/feature_request.md).
 
 #### How Do I Submit A (Good) Feature Request?
 
