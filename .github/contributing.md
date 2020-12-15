@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to SKR-PRO-V1.1-Stepper-Dr
 
 [Code of Conduct](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#code-of-conduct)
 
-[I don't want to read this whole thing, I just have a question!!!](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/new/master/.github#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
+[I don't want to read this whole thing, I just have a question!!!](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/blob/master/.github/contributing.md#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
 [How Can I Contribute?](https://github.com/GadgetAngel/SKR-PRO-V1.1-Stepper-Driver-Jumper-Configuration-Manual/new/master/.github#how-can-i-contribute)
   * [Reporting Bugs](.github/ISSUE_TEMPLATE/bug_report.md)
